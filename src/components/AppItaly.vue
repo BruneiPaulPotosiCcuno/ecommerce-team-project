@@ -6,7 +6,13 @@ export default{
 </script>
 
 <template>
-    <h1>prova</h1>
+    <div class="container">
+        <div class="d-flex">
+            <h3>Scopri i prodotti Made in Italy</h3>
+            <a href="#">Scopri</a>
+        </div>
+        
+    </div>
 
     
 
