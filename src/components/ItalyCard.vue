@@ -29,6 +29,7 @@ export default {
             border-radius: 50%;
             overflow: hidden;
         }
+
         .subtitle {
             background-color: #fff;
         }

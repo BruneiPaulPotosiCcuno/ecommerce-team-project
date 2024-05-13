@@ -45,7 +45,7 @@ export default {
 
 <template>
     <div class="container">
-        <div class="d-flex">
+        <div class="d-flex py-3">
             <h4>Scopri i prodotti Made in Italy</h4>
             <a class="ms-find px-3 py-2" href="#">Scopri</a>
         </div>
