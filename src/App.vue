@@ -1,6 +1,12 @@
 <script>
-export default {
-  
+
+import AppSponsor from "./components/AppSponsor.vue";
+
+export default{
+  components: {
+    AppSponsor,
+  }
+    
 }
 </script>
 
@@ -9,4 +15,5 @@ export default {
     <div>
         test daniele
     </div>
+    <AppSponsor></AppSponsor>
 </template>
