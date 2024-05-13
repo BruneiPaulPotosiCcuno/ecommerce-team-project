@@ -57,6 +57,9 @@ export default {
 </template>
 
 <style scoped lang="scss">
+    .container {
+        background-color: #fff;
+    }
     .ms-find {
         text-decoration: none;
     }
