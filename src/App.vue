@@ -12,8 +12,8 @@ export default {
         AppHeader,
         AppFlashSale
     }
-
 }
+
 </script>
 
 <template>
@@ -23,7 +23,4 @@ export default {
         <AppFlashSale></AppFlashSale>
         <AppSponsor></AppSponsor>
     </main>
-
-
-
 </template>
