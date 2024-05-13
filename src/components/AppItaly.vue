@@ -54,9 +54,6 @@ export default {
         </section>
 
     </div>
-
-
-
 </template>
 
 <style scoped lang="scss">

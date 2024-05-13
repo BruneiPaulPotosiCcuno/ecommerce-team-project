@@ -18,13 +18,15 @@ export default {
 
 <style>
     .comic-card {
-        width: calc((100% / 6) - 12px);
+        width: calc((100% / 7) - 12px);
         img {
             display: block;
             width: 100%;
             height: 190px;
             object-fit: cover;
             object-position: top;
+            border-radius: 50%;
+            overflow: hidden;
         }
     }
 
