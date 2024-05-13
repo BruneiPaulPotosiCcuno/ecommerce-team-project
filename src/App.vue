@@ -6,4 +6,7 @@ export default {
 
 <template>
     ciao
+    <div>
+        test daniele
+    </div>
 </template>
