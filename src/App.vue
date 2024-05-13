@@ -24,3 +24,11 @@ export default {
         <AppSponsor></AppSponsor>
     </main>
 </template>
+
+<style lang="scss">
+    @use './style/partials/variables' as *;
+
+    body{
+        background-color: $tertiary-color;
+    }
+</style>
