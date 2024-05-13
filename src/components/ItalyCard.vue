@@ -11,7 +11,7 @@ export default {
             <img :src="cardInfo.thumb">
         </div>
 
-        <p class="py-2">{{ cardInfo.series }}</p>
+        <p class="subtitle">{{ cardInfo.series }}</p>
     </div>
 
 </template>
@@ -19,14 +19,18 @@ export default {
 <style>
     .comic-card {
         width: calc((100% / 7) - 12px);
+        text-align: center;
         img {
             display: block;
             width: 100%;
-            height: 190px;
+            height: 170px;
             object-fit: cover;
             object-position: top;
             border-radius: 50%;
             overflow: hidden;
+        }
+        .subtitle {
+            background-color: #fff;
         }
     }
 

@@ -46,10 +46,10 @@ export default {
 <template>
     <div class="container">
         <div class="d-flex">
-            <h3>Scopri i prodotti Made in Italy</h3>
-            <a href="#">Scopri</a>
+            <h4>Scopri i prodotti Made in Italy</h4>
+            <a class="ms-find px-3 py-2" href="#">Scopri</a>
         </div>
-        <section class="card-list container py-5">
+        <section class="card-list container">
             <ItalyCard v-for="card in cards" :cardInfo="card"></ItalyCard>
         </section>
 
@@ -57,7 +57,9 @@ export default {
 </template>
 
 <style scoped lang="scss">
-
+    .ms-find {
+        text-decoration: none;
+    }
     .card-list {
         display: flex;
         flex-wrap: wrap;
